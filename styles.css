@@ -100,7 +100,6 @@ button:hover{
     @media screen and (width >= 690px) {
         flex-direction: row;
         max-width: 60rem;
-        max-height: 45rem;
     }
 }
 
