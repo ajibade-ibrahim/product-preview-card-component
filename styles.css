@@ -60,6 +60,11 @@ button {
     border-radius: 0.8rem;
     padding: 1.5rem 9.2rem;
     min-width: 29.5rem;
+
+    @media screen and (width >= 690px) {
+        min-width: 23.6rem;
+        padding: 1.5rem 6.2rem;
+    }
 }
 
 button:hover{
@@ -94,7 +99,7 @@ button:hover{
 
     @media screen and (width >= 690px) {
         flex-direction: row;
-        max-width: 70rem;
+        max-width: 60rem;
     }
 }
 
