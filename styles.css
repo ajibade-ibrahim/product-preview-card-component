@@ -98,10 +98,6 @@ button:hover{
     }
 }
 
-picture {
-    /*height: 24rem;*/
-}
-
 .card img {
     width: 100%;
     height: 100%;
@@ -110,6 +106,7 @@ picture {
 
     @media screen and (width >= 690px) {
         border-radius: 1.2rem 0 0 1.2rem;
+        min-width: 30rem;
     }
 }
 
