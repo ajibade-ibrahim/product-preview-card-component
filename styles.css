@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+:root {
+    --cream: #F2EAE2;
+    --aurometal-saurus: #6C7289;
+    --deep-aquamarine: #3D8168;
+    --deep-aquamarine-hover: #1A4032;
+    --gumetal: #1C232B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    letter-spacing: 0;
+}
+
+/*typography*/
+.display {
+    font-family: Fraunces, sans-serif;
+    font-weight: bold;
+    line-height: 3.2rem;
+}
+
+.overline {
+    font-size: 1.2rem;
+    letter-spacing: .5rem;
+}
+
+button{
+    font-weight: bold;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
